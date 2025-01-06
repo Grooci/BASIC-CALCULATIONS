@@ -200,3 +200,30 @@ double total_revenue = customer1 + customer2 + customer3;
 printf("The total revenue are %.2lf", total_revenue);
 return 0;
 }*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+
+double loan_principal = 20000;
+double annual_rate = 0.06;
+double term = 5;
+double installment = (loan_principal * (annual_rate / 12) * pow(1 + (annual_rate / 12), 12 * term)) /
+                         (pow(1 + (annual_rate / 12), 12 * term) - 1);
+printf("The installment are %.2lf", installment);
+return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+
+double total_revenue = 12000;
+double total_cost = 8000;
+double gross_profit = total_revenue - total_cost;
+printf("The gross profit are %.2lf", gross_profit);
+return 0;
+}*/
+
