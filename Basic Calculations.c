@@ -58,7 +58,7 @@ printf("The Profit loss percentage for the item is %.2lf", ProfitLossPercentage)
 return 0;
 }*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 int main(){
@@ -68,7 +68,36 @@ int discount_rate = 0.2;
 int final_amount = original_amount - (discount_rate * original_amount);
 printf("The final amount is %d", final_amount);
 return 0;
-}
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+
+double principal = 10000;
+double rate = 0.05;
+double time = 3;
+double simple_interest = (principal * rate * time) / 100;
+printf("The simple interest is %.2lf", simple_interest);
+return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+
+double principal = 8000;
+double rate = 0.04;
+double time = 2;
+int n = 4;
+double compound_interest = principal * pow((1 + (rate / n)),(n * time)) - principal;
+printf("The compound interest is %.2lf", compound_interest);
+return 0;
+}*/
 
 
 
