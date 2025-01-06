@@ -175,4 +175,28 @@ printf("The depreciation are %.2lf", depreciation);
 return 0;
 }*/
 
+/*#include <stdio.h>
+#include <stdlib.h>
 
+int main(){
+
+double hourly_wage = 30;
+double hours_per_week = 40;
+double weeks_per_year = 52;
+double annual_salary = hourly_wage * hours_per_week * weeks_per_year;
+printf("The annual salary are %.2lf", annual_salary);
+return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double customer1 = 200;
+double customer2 = 500;
+double customer3 = 300;
+double total_revenue = customer1 + customer2 + customer3;
+printf("The total revenue are %.2lf", total_revenue);
+return 0;
+}*/
