@@ -99,5 +99,30 @@ printf("The compound interest is %.2lf", compound_interest);
 return 0;
 }*/
 
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double VAT_rate = 0.18;
+double base_price = 150;
+double final_price = base_price + (VAT_rate * base_price);
+printf("The final price is %.2lf", final_price);
+return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double VAT_rate = 0.18;
+double original_price = 200;
+double discount_rate = 0.1;
+double discounted_price = original_price - (discount_rate * original_price);
+double final_price = discounted_price + (VAT_rate * discounted_price);
+printf("The final price is %.2lf", final_price);
+return 0;
+}*/
 
 
