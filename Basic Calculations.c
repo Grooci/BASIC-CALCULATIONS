@@ -31,7 +31,7 @@ printf("The net salary of an employee is %.2lf", NetSalary);
 return 0;
 }*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 int main(){
@@ -43,6 +43,30 @@ int Price3 = 6000;
 int Quantity3 = 200;
 int TotalRevenue = (Price1 * Quantity1) + (Price2 * Quantity2) + (Price3 * Quantity3);
 printf("The total revenue is %d", TotalRevenue);
+return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double SellingPrice = 250;
+double CostPrice = 200;
+double ProfitLossPercentage = ((SellingPrice - CostPrice) / CostPrice) * 100;
+printf("The Profit loss percentage for the item is %.2lf", ProfitLossPercentage);
+return 0;
+}*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+int original_amount = 1200;
+int discount_rate = 0.2;
+int final_amount = original_amount - (discount_rate * original_amount);
+printf("The final amount is %d", final_amount);
 return 0;
 }
 
