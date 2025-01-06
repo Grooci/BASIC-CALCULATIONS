@@ -227,3 +227,27 @@ printf("The gross profit are %.2lf", gross_profit);
 return 0;
 }*/
 
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double base_price = 50;
+double tip_rate = 0.15;
+double tax_rate = 0.08;
+double total_cost = base_price + (tip_rate * base_price) + (tax_rate * base_price);
+printf("The total cost are %.2lf", total_cost);
+return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double cost_price = 100;
+double profit_margin = 0.25;
+double selling_price = cost_price + (profit_margin * cost_price);
+printf("The selling price are %.2lf", selling_price);
+return 0;
+}*/
