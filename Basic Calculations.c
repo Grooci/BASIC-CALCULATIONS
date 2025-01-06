@@ -150,4 +150,29 @@ printf("The average sales are %.2lf", average_sales);
 return 0;
 }*/
 
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double sales_volume = 50000;
+double commission_rate = 0.05;
+double commission = sales_volume * commission_rate;
+printf("The commission are %.2lf", commission);
+return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double asset_cost = 5000;
+double residual_value = 0.05;
+double useful_life = 5;
+double depreciation = (asset_cost - residual_value) / useful_life;
+printf("The depreciation are %.2lf", depreciation);
+return 0;
+}*/
+
 
