@@ -125,4 +125,29 @@ printf("The final price is %.2lf", final_price);
 return 0;
 }*/
 
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double fixed_costs = 2000;
+double selling_price = 25;
+double variable_cost = 15;
+double break_even_units = fixed_costs / (selling_price - variable_cost);
+printf("The break even units are %.2lf", break_even_units);
+return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+double total_sales = 60000;
+double days = 30;
+double average_sales = total_sales / days;
+printf("The average sales are %.2lf", average_sales);
+return 0;
+}*/
+
 
